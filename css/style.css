@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    width: 170px;
+    height: 45px;
+    margin: 0 60px;
+}
+
+.navbar-nav .nav-item {
+    padding: 15px;
+    margin: auto;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    /* font-weight: bold; */
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: rgba(107, 104, 104, 0.734);
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: black;
+    font-weight: bold;
+}
+
+.contain-sec {
+    margin: 80px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+}
+
+.header-sec .title-sec {
+    font-size: 3.3rem;
+    text-transform: capitalize;
+    margin: 50px 70px;
+}
+
+.header-sec .text-sec {
+    font-size: 1.3rem;
+    width: 650px;
+    margin: 30px 70px;
+}
+
+.button-sec-one .but-sec-one {
+    font-size: 1.3rem;
+    margin: 20px 50px;
+}
+
+.container-sec-end .title-sec {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 10px 20px;
+}
+
+.container-sec-end span.text-sec {
+    color: rgba(167, 161, 161, 0.776);
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin: 10px 20px;
+}
+
+.image-sec .image-sec-one {
+    width: 500px;
+    margin: 20px 140px;
+}
+
+
+.image-sec .image-sec-two {
+    width: 520px;
+    position: relative;
+    z-index: 1;
+}
+
+span.box-image {
+    padding: 20px;
+    border: 1px solid black;
+    width: 130px;
+    height: 100px;
+    position: absolute;
+    top: 685px;
+    right: 760px;
+}
+
+div.icon .icon-down {
+    color: white;
+    background-color: black;
+    width: -70px;
+    padding: 20px;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: -405px;
+    right: 332px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.contain-sec-one {
+    margin: 150px 100px;
+}
+
+.header-sec-one {
+    display: flex;
+}
+
+.header-sec-one hr {
+    width: 3%;
+    height: 40px;
+    margin-left: 70px;
+    display: inline-block;
+}
+
+.title-sec-one {
+    font-size: 2.7rem;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 0 20px 8px 20px;
+}
+
+.container-sec-end-two {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px;
+}
+
+.cont-sec-one, .cont-sec-two, .cont-sec-three {
+    display: flex;
+}
+
+.contain-sec-one img,
+.contain-sec-two img,
+.contain-sec-three img {
+    width: 100px;
+    height: 80px;
+}
+
+.descript-sec {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    width: 250px;
+    margin: 0 30px;
+}
+
+.text-sec-end {
+    color: rgba(153, 151, 151, 0.854);
+    font-size: 1.2rem;
+    width: 270px;
+    margin: 15px 30px;
+}
+
+.contain-sec-two {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 70px;
+}
+
+.image-sec img {
+    width: 450px;
+    height: 500px;
+}
+
+.header-sec-two .title-sec {
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    margin: 50px 0;
+    width: 480px;
+}
+
+.header-sec-two .text-sec-two {
+    font-size: 1.2rem;
+    width: 520px;
+    margin: 50px 0;
+}
+
+.sec-end-three .text-sec-four {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+.text-sec-four span {
+    font-size: 1.5rem;
+    margin-left: 235px;
+}
+
+.sec-end-three .text-sec {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.text-sec span {
+    font-size: 1.5rem;
+    margin-left: 150px;
+}
+
+button.but-sec-three {
+    font-size: 1.3rem;
+    padding: 5px 15px;
+    text-transform: capitalize;
+    color: white;
+    background-color: black;
+    margin: 20px 0;
+}
+
+.const-process {
+    margin: 60px 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cont-ful {
+    margin: 0 80px;
+}
+
+.header-process .title-sec {
+    font-size: 2.5rem;
+    width: 550px;
+    margin: 80px 80px 50px 80px;
+}
+
+.first-sec-process {
+    display: flex;
+}
+
+
+.icon-process img {
+    width: 70px;
+    background-color: black;
+    margin: 0 40px;
+}
+
+.header-sec-process {
+    margin: 0 20px;
+}
+
+.header-sec-process .title-sec {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.header-sec-process .pragraph-sec-process-one {
+    font-size: 1rem;
+    width: 350px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.header-sec-process .pragraph-sec-process-one::after {
+    content: "";
+    border-left: 1px solid black;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 10px;
+    right: 105px;
+}
+
+.second-sec-process {
+    display: flex;
+}
+
+.icon-process-two img {
+    width: 50px;
+    margin: 0 40px;
+}
+
+.second-sec-process .header-sec-process {
+    margin: 0 40px;
+}
+
+.second-sec-process .header-sec-process .title-sec {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.second-sec-process .pragraph-sec-process-two {
+    font-size: 1rem;
+    width: 350px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.second-sec-process .pragraph-sec-process-two::after {
+    content: "";
+    border-left: 1px solid black;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 15px;
+    right: 105px;
+}
+
+.third-sec-process {
+    display: flex;
+    margin: 0 40px;
+}
+
+.icon-process-three img {
+    width: 50px;
+}
+
+.third-sec-process .header-sec-process {
+    margin: 0 75px;
+}
+
+.title-sec-process {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.pragraph-sec-process-third {
+    font-size: 1rem;
+    width: 350px;
+    margin: 20px 0;
+}
+
+.image-sec-process img {
+    width: 550px;
+    height: 550px;
+    margin: 60px;
+}
+
+.cont-four {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 50px;
+    position: relative;
+}
+
+.image-testamonial-sec img {
+    width: 500px;
+    height: 500px;
+}
+
+.header-sec-testamonial .title-sec {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pesonal-info {
+    background-color: black;
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    position: absolute;
+    left: 330px;
+    top: 150px;
+}
+
+.pesonal-info .icon-sec i {
+    color: white;
+    font-size: 1.9rem;
+    margin: 15px;
+}
+
+.pesonal-info .pragraph-testamonial {
+    color: white;
+    margin: 10px 15px;
+    width: 280px;
+}
+
+.container-person {
+    display: flex;
+}
+
+.pesonal-info .image-person-one img {
+    width: 90px;
+    margin: 15px;
+    display: inline-block;
+}
+
+.pesonal-info .name-person {
+    color: white;
+    margin: 10px 15px;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+
+.pesonal-info .person-descrip {
+    color: white;
+    margin: 10px;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.person-info-two {
+    background-color: black;
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    margin-top: 70px;
+}
+
+.person-info-two .icon-sec {
+    color: white;
+    font-size: 1.9rem;
+    margin: 15px;
+}
+
+.person-info-two .pragraph-testamonial {
+    color: white;
+    width: 250px;
+    margin: 10px 15px;
+}
+
+.image-person-two img {
+    width: 100px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.person-name-two {
+    color: white;
+    margin: 10px 15px;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+
+.person-descrip-two {
+    color: white;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.icon-prev i {
+    position: absolute;
+    left: 160px;
+    font-size: 1.4rem;
+    color: rgb(118, 115, 115);
+    background-color: rgb(170, 168, 168);
+    padding: 15px;
+}
+
+.icon-next i {
+    position: absolute;
+    left: 250px;
+    font-size: 1.4rem;
+    color: rgb(118, 115, 115);
+    background-color: rgb(170, 168, 168);
+    padding: 15px;
+}
+
+.container-fluid.end-sec {
+    margin-top: 50px;
+    transform: translate(20px, 20px);
+    background-color: rgb(255, 249, 249);
+    width: 470px;
+}
+
+.header-sec .title-sec-end {
+    font-size: 2.2rem;
+    width: 450px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.header-sec .pragraph-sec-end {
+    font-size: 1rem;
+    width: 450px;
+    margin: 20px 0;
+}
+
+.input-sec {
+    position: relative;
+}
+
+.input-sec input {
+    width: 100%;
+    margin: 0;
+    padding: 5px 25px;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    height: 40px;
+}
+
+.input-sec .icon-email {
+    position: absolute;
+    top: 12px;
+    left: 2px;
+    font-size: 1.2rem;
+    padding: 0 5px;
+}
+
+.input-sec .but-sec-end {
+    background-color: black;
+    color: white;
+    position: absolute;
+    /* top: 30px; */
+    right: 0;
+    height: 100%;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.cont-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-logo {
+    font-size: 1.9rem;
+}
+
+.footer-pragraph {
+    width: 170px;
+}
+
+.footer-icon a {
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+.footer-service-title {
+    font-size: 2rem;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list li {
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
