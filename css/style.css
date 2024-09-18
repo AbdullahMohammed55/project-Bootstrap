@@ -76,14 +76,15 @@
     z-index: 1;
 }
 
+
 span.box-image {
     padding: 20px;
     border: 1px solid black;
     width: 130px;
     height: 100px;
     position: absolute;
-    top: 685px;
-    right: 760px;
+    top: 650px;
+    right: 700px;
 }
 
 div.icon .icon-down {
@@ -93,8 +94,8 @@ div.icon .icon-down {
     padding: 20px;
     font-size: 1.5rem;
     position: absolute;
-    bottom: -405px;
-    right: 332px;
+    bottom: -370px;
+    right: 250px;
     z-index: 1;
     cursor: pointer;
 }
@@ -330,9 +331,12 @@ button.but-sec-three {
     position: relative;
 }
 
+
+
 .image-testamonial-sec img {
     width: 500px;
     height: 500px;
+    /* position: relative; */
 }
 
 .header-sec-testamonial .title-sec {
